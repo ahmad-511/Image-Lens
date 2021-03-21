@@ -1,6 +1,6 @@
 # Image-Lens
 
-Image Lens is a light weight JS code adds a magnifier utility to your images
+Image Lens is a light weight JS code adds a magnifier tool to your images
 
 ![Image Lens Screenshot](./screenshot.png)
 
