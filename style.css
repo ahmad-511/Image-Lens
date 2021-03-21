@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img[use-lens] {
+    max-width: 500px;
+}
