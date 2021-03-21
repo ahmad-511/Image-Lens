@@ -60,8 +60,8 @@
             
             // Calculate background position according to actual image size
             const bcr = currImage.getBoundingClientRect();
-            const posX = (curX - bcr.left) * wzf - lensW / 2;
-            const posY = (curY - bcr.top) * hzf - lensH / 2;
+            const posX = Math.round((curX - bcr.left) * wzf - lensW / 2);
+            const posY = Math.round((curY - bcr.top) * hzf - lensH / 2);
     
             lens.style.backgroundPosition = `${-posX}px ${-posY}px`;
         }
