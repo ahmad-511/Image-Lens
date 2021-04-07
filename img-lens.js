@@ -1,6 +1,11 @@
 ;(function(lensW, lensH){
     let currImage = null;
 
+    // Use the height the same as the width if not provided
+    if(!lensH){
+        lensH = lensW;
+    }
+
     // Create lens element
     const lens = document.createElement('div');
     lens.style.width = `${lensW}px`;
